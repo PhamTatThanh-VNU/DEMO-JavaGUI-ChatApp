@@ -1,0 +1,42 @@
+.dark-gray-background{
+    -fx-background-color: #46474A;
+}
+.transparent-background{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.gray-background{
+    -fx-background-color: #636566;
+}
+.radius{
+    -fx-background-radius: 20px ;
+}
+.text-field{
+    -fx-text-fill: white;
+}
+
+.my-message {
+    -fx-alignment: CENTER_RIGHT;
+    -fx-padding: 0 3 0 0;
+}
+
+.other-message {
+    -fx-alignment: CENTER_LEFT ;
+    -fx-padding: 0 0 0 3;
+}
+
+.my-message .message-label{
+    -fx-background-color: rgba(74, 234, 145, 0.91);
+    -fx-background-radius: 20px 5px 20px 20px;
+    -fx-padding: 10px;
+}
+
+.other-message .message-label{
+    -fx-background-color: #ec5bd5;
+    -fx-background-radius: 5px 20px 20px 20px;
+    -fx-padding: 10px;
+}
+
+.message-label {
+    -fx-padding: 0 5px 0 5px;
+    -fx-font-size: 14px;
+}
